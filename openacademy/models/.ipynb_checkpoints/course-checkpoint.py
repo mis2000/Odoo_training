@@ -10,3 +10,5 @@ class OpenAcademyCours(models.Model):
     description = fields.html(string'Description')
     banner = fields.Binary(string='Banner')
     price = fields.float(string='Price' Digits (5,4))
+    expire_date = fields.date(string='Expire After', required=True)
+    
