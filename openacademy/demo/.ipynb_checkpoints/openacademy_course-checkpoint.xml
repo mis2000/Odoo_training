@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <record model="openacademy.course" id="openacademy_course_01">
+            <field name="name">Odoo Technical Traingin</field>
+            <field name="expire_date">2020-02-04</field>
+            <field name="responsible_id" ref="base.user_demo"/>
+        </record>
+         <record model="openacademy.course" id="openacedemy_course_01">
+            <field name="name">Odoo Functional Traingin</field>
+            <field name="expire_date">2020-02-04</field>
+            <field name="responsible_id" ref="base.user_demo"/>
+        </record>
+    </data>
+</odoo>
