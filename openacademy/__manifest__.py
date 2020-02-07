@@ -20,22 +20,24 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['mail'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/openacademy_menu_views.xml',
-        'views/openacademy_course_view.xml',
-        'views/openacademy_session_view.xml',
-        'views/openacademy_attendees.xml',
-        'views/views.xml',
-        'views/templates.xml',
-        'views/partner.xml',
+        'views/openacademy_course_views.xml',
+        'views/openacademy_session_views.xml',
+        'views/openacademy_attendees_views.xml',
         'views/res_partner_views.xml'
+        # 'views/views.xml',
+        # 'views/templates.xml',
+        # 'views/partner.xml',
+        
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/openacademy_course.xml',
     ],
 }
+
